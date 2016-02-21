@@ -1,8 +1,8 @@
 var relatedinfo = [
   {
     name: 'MudOS',
-    url: 'https://github.com/mudchina/mudos',
-    desc: 'MudOS原始老版本（基本停止维护）',
+    url: 'https://github.com/fluffos/fluffos/tree/mudos-v22.02',
+    desc: 'MudOS原始老版本（停止维护）',
   },
   {
     name: 'FluffOS',
