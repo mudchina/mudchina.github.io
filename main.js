@@ -2,7 +2,7 @@ var relatedinfo = [
   {
     name: 'MudOS',
     url: 'https://github.com/mudchina/mudos',
-    desc: 'MudOS老版本（基本停止维护）',
+    desc: 'MudOS原始老版本（基本停止维护）',
   },
   {
     name: 'FluffOS',
@@ -42,6 +42,12 @@ var mudinfo = [
     game_url: '',
   },
   {
+    name: '金庸群侠传',
+    proj: 'jy',
+    charset: 'GBK',
+    game_url: '',
+  },
+  {
     name: '风云再起Ⅱ',
     proj: 'fy2',
     charset: 'GBK',
@@ -62,6 +68,12 @@ var mudinfo = [
   {
     name: '风云4',
     proj: 'fy4',
+    charset: 'GBK',
+    game_url: '',
+  },
+  {
+    name: '三界神话',
+    proj: 'sjsh',
     charset: 'GBK',
     game_url: '',
   },

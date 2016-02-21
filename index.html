@@ -30,54 +30,25 @@
 </script>
 <script type="text/javascript" src="jquery-1.9.js"></script>
 <script type="text/javascript" src="main.js"></script>
-<style>
-body {
-  line-height: 130%;
-  font-size: 13px;
-}
-h1 {
-  text-align: center;
-}
-table {
-  width: 100%;
-}
-th, td {
-  border: 1px solid dotted;
-  padding: 5px;
-}
-th {
-  background-color: bisque;
-}
-td {
-  background-color: #eee;
-}
-a {
-  color: blue;
-}
-
-</style>
+<link rel="stylesheet" href="main.css"/>
 </head>
 
 <body>
 
 <h1>中文MUD大全</h1>
 
-    <h2>本站宗旨</h2>
+  <div id='navlinks'>
+  <a href='#intro'>本站宗旨</a> | <a href='#history'>中文MUD发展历史</a> | <a href='#mudproj'>中文MUD开源项目</a> | <a href='#related'>LPMUD相关资源</a>
+  </div>
+
+  <a id='intro'><h2>本站宗旨</h2></a>
   <p>文字形式的MUD，作为第一代网游，曾经风靡一时。文字阅读形式的互动游戏，仍有其独特的魅力。</p><p>有鉴于此，特设立本开源项目，希望借助 GitHub 的社交化开发方式，凝聚 MUD 爱好者的力量，能够给日渐小众的 MUD 以一席之地。</p><p>如果以下某个项目触及你的版权，请于我们联系，我们会及时处理。</p>
   
   <p>论坛：<a href='http://www.mudbuilder.com/'>泥巴创世纪（www.mudbuilder.com）</a></p>
   
   <p>QQ群：46899981</p>
 
-  <h2>中文MUD开源项目</h2>
-
-  <div id="mudlist"></div>
-
-  <h2>LPMUD相关资源</h2>
-
-  <div id="related"></div>
-
-    <h2>中文MUD发展历史</h2>
+  <a id='history'><h2>中文MUD发展历史</h2></a>
 
     <h4>萌芽阶段（1992-1993）</h3>
   <p>华文地区的MUD最早出现在1992年，由台湾的中央大学机械系学生张英豪（Aurona）所架设的Formosa。采用的系统是SillyMUD（衍生自DikuMUD系统）。同年稍后出现的是台湾的成功大学由麦树翔（MSC）与金昌理（CCC）使用MERC 1.0（衍生自DikuMUD）所架设的无标题MUD。这两个MUD都是英文显示场景等讯息，并且只允许输入英文。在1993年台湾陆续又出现多个以英文显示的MUD：较知名的有台湾大学的龙域传奇（DragonRealm，又称为3000，衍生自MERC），新竹交通大学的风之王国（Realm of Winds，又称为4000，衍生自MERC）、风之传说（Legend of Winds，又称为4040，衍生自MERC）。当时就读于交通大学管理科学系的学生张民欣（Annihilator，阿奈雷特）开始尝试对风之传说的MERC的代码进行修改，并成功使MUD首度具备显示及输入中文的能力。风之传说支持中文显示及输入的功能，很快吸引了大量的玩家并且成为当时同时上线人数最多的MUD站。</p>
@@ -99,6 +70,12 @@ a {
 
 <p>在图形化大行其道的今天，传统意义上，以文字作为界面的MUD依然繁荣。根据最新的统计[9]，在中国大陆和台湾，依然有数百个站点，总计上万在线玩家。MUD虽然小众化，但其魅力依然不减。有些MUD连续开放时间已经超过数十年。譬如著名的北大侠客行，至今依然有数百玩家在线游戏。</p>
   
+  <a id='mudproj'><h2>中文MUD开源项目</h2></a>
+  <div id="mudlist"></div>
+
+  <a id='related'><h2>LPMUD相关资源</h2></a>
+  <div id="related"></div>
+
   <p><br/></p>
   <p>更新日期: 2016/2/21</p>
 
