@@ -7,7 +7,12 @@ var relatedinfo = [
   {
     name: 'FluffOS',
     url: 'https://github.com/fluffos/fluffos',
-    desc: 'MudOS衍生项目，与 MudOS 基本兼容',
+    desc: 'MudOS衍生项目，与 MudOS 基本兼容，推荐',
+  },
+  {
+    name: 'WebTelnet',
+    url: 'https://github.com/mudchina/webtelnet',
+    desc: 'Web方式 访问 MUD 的 Proxy，可以用浏览器或手机玩 MUD，推荐',
   },
   {
     name: 'LPMuds.net',
