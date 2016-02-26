@@ -32,7 +32,7 @@ var mudinfo = [
     name: '东方故事II',
     proj: 'es2-utf8',
     charset: 'UTF8',
-    game_url: '',
+    game_url: 'http://jp.rjfun.com:8080',
   },
   {
     name: '侠客行100',
