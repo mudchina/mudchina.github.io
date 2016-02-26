@@ -115,7 +115,7 @@ function listMuds(){
   for(var i=0; i<n; i++) {
     var mud = mudinfo[i];
     var proj_url = 'https://github.com/mudchina/' + mud.proj;
-    table.append('<tr><td>' + (i+1) + '</td><td>' + mud.name + '</td><td>' + mud.charset + '</td><td><a href="' + proj_url + '">' + proj_url + '</a></td><td>' + mud.game_url + '</td></tr>');
+    table.append('<tr><td>' + (i+1) + '</td><td>' + mud.name + '</td><td>' + mud.charset + '</td><td><a href="' + proj_url + '">' + proj_url + '</a></td><td><a href="' + mud.game_url + '">' + mud.game_url + '</a></td></tr>');
   }
 }
 
